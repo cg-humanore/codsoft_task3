@@ -1,0 +1,409 @@
+.menu {
+  background-color: #000610;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.menu .div {
+  background-color: #000610;
+  overflow: hidden;
+  width: 360px;
+  height: 800px;
+  position: relative;
+}
+
+.menu .overlap {
+  position: absolute;
+  width: 362px;
+  height: 265px;
+  top: 0;
+  left: 0;
+}
+
+.menu .different-food {
+  position: absolute;
+  width: 360px;
+  height: 265px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.menu .rectangle {
+  width: 362px;
+  height: 265px;
+  background-color: #002d0773;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.menu .rectangle-2 {
+  width: 360px;
+  height: 44px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.menu .mingcute-arrow-up {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 10px;
+  left: 10px;
+}
+
+.menu .ic-twotone-apps {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 15px;
+  left: 286px;
+}
+
+.menu .iconoir-add-to-cart {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 15px;
+  left: 324px;
+}
+
+.menu .group {
+  position: absolute;
+  width: 176px;
+  height: 29px;
+  top: 288px;
+  left: 13px;
+}
+
+.menu .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .div-wrapper {
+  position: absolute;
+  width: 192px;
+  height: 29px;
+  top: 531px;
+  left: 16px;
+}
+
+.menu .text-wrapper-2 {
+  position: absolute;
+  top: 444px;
+  left: 35px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .text-wrapper-3 {
+  position: absolute;
+  top: 687px;
+  left: 36px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .text-wrapper-4 {
+  position: absolute;
+  top: 687px;
+  left: 265px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .text-wrapper-5 {
+  position: absolute;
+  top: 687px;
+  left: 147px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .text-wrapper-6 {
+  position: absolute;
+  top: 444px;
+  left: 141px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .text-wrapper-7 {
+  position: absolute;
+  top: 444px;
+  left: 271px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .group-2 {
+  position: absolute;
+  width: 55px;
+  height: 15px;
+  top: 469px;
+  left: 35px;
+}
+
+.menu .text-wrapper-8 {
+  left: 0;
+  position: absolute;
+  top: 0;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .group-3 {
+  position: absolute;
+  width: 56px;
+  height: 15px;
+  top: 712px;
+  left: 151px;
+}
+
+.menu .group-4 {
+  position: absolute;
+  width: 56px;
+  height: 15px;
+  top: 712px;
+  left: 267px;
+}
+
+.menu .group-5 {
+  position: absolute;
+  width: 57px;
+  height: 15px;
+  top: 712px;
+  left: 37px;
+}
+
+.menu .overlap-group-wrapper {
+  position: absolute;
+  width: 56px;
+  height: 15px;
+  top: 469px;
+  left: 147px;
+}
+
+.menu .overlap-group {
+  position: relative;
+  width: 54px;
+  height: 15px;
+}
+
+.menu .text-wrapper-9 {
+  left: 12px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .bx-dollar {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 0;
+  left: 0;
+}
+
+.menu .group-6 {
+  position: absolute;
+  width: 46px;
+  height: 15px;
+  top: 469px;
+  left: 273px;
+}
+
+.menu .overlap-wrapper {
+  position: absolute;
+  width: 84px;
+  height: 24px;
+  top: 490px;
+  left: 22px;
+}
+
+.menu .overlap-2 {
+  position: relative;
+  width: 82px;
+  height: 24px;
+  background-color: #0c5800;
+  border-radius: 30px;
+}
+
+.menu .text-wrapper-10 {
+  position: absolute;
+  top: 4px;
+  left: 13px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .group-7 {
+  position: absolute;
+  width: 84px;
+  height: 24px;
+  top: 734px;
+  left: 23px;
+}
+
+.menu .group-8 {
+  position: absolute;
+  width: 84px;
+  height: 24px;
+  top: 490px;
+  left: 139px;
+}
+
+.menu .group-9 {
+  position: absolute;
+  width: 84px;
+  height: 24px;
+  top: 734px;
+  left: 137px;
+}
+
+.menu .group-10 {
+  position: absolute;
+  width: 84px;
+  height: 24px;
+  top: 490px;
+  left: 252px;
+}
+
+.menu .group-11 {
+  position: absolute;
+  width: 84px;
+  height: 24px;
+  top: 734px;
+  left: 252px;
+}
+
+.menu .unsplash-webg-pytynw {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 334px;
+  left: 14px;
+  object-fit: cover;
+}
+
+.menu .unsplash {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 334px;
+  left: 127px;
+  object-fit: cover;
+}
+
+.menu .unsplash-hgplnmepmaa {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 334px;
+  left: 240px;
+  object-fit: cover;
+}
+
+.menu .unsplash-qoulkuhieu {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 577px;
+  left: 14px;
+  object-fit: cover;
+}
+
+.menu .unsplash-pqyvdbwpxpu {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 577px;
+  left: 127px;
+  object-fit: cover;
+}
+
+.menu .unsplash-jhpcbpwi {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 577px;
+  left: 240px;
+  object-fit: cover;
+}
+
+.menu .mingcute-arrow-up-wrapper {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  top: 287px;
+  left: 301px;
+  background-color: #ffffff;
+  border-radius: 15.5px;
+}
+
+.menu .img {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 7px;
+  left: 7px;
+}
+
+.menu .img-wrapper {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  top: 529px;
+  left: 301px;
+  background-color: #ffffff;
+  border-radius: 15.5px;
+}

@@ -1,0 +1,553 @@
+.menu {
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.menu .div {
+  background-color: #000000;
+  overflow: hidden;
+  width: 360px;
+  height: 800px;
+  position: relative;
+}
+
+.menu .component {
+  position: absolute;
+  width: 237px;
+  height: 1288px;
+  top: 148px;
+  left: 24px;
+  overflow-y: scroll;
+}
+
+.menu .rectangle {
+  top: 1188px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 0;
+  object-fit: cover;
+}
+
+.menu .text-wrapper {
+  position: absolute;
+  top: 11px;
+  left: 111px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.menu .text-wrapper-2 {
+  position: absolute;
+  top: 143px;
+  left: 113px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.menu .text-wrapper-3 {
+  position: absolute;
+  top: 275px;
+  left: 115px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.menu .text-wrapper-4 {
+  position: absolute;
+  top: 543px;
+  left: 112px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.menu .text-wrapper-5 {
+  top: 672px;
+  position: absolute;
+  left: 112px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.menu .text-wrapper-6 {
+  position: absolute;
+  top: 804px;
+  left: 112px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.menu .text-wrapper-7 {
+  position: absolute;
+  top: 936px;
+  left: 112px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.menu .text-wrapper-8 {
+  position: absolute;
+  top: 1068px;
+  left: 112px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.menu .text-wrapper-9 {
+  top: 1200px;
+  position: absolute;
+  left: 112px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.menu .text-wrapper-10 {
+  position: absolute;
+  top: 408px;
+  left: 113px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.menu .group {
+  position: absolute;
+  width: 66px;
+  height: 15px;
+  top: 40px;
+  left: 111px;
+}
+
+.menu .overlap-group {
+  position: relative;
+  width: 64px;
+  height: 15px;
+}
+
+.menu .text-wrapper-11 {
+  left: 12px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .bx-dollar {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 0;
+  left: 0;
+}
+
+.menu .div-wrapper {
+  position: absolute;
+  width: 54px;
+  height: 15px;
+  top: 172px;
+  left: 123px;
+}
+
+.menu .text-wrapper-12 {
+  left: 0;
+  position: absolute;
+  top: 0;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .group-2 {
+  position: absolute;
+  width: 54px;
+  height: 15px;
+  top: 304px;
+  left: 123px;
+}
+
+.menu .group-3 {
+  position: absolute;
+  width: 56px;
+  height: 15px;
+  top: 434px;
+  left: 123px;
+}
+
+.menu .group-4 {
+  position: absolute;
+  width: 49px;
+  height: 15px;
+  top: 570px;
+  left: 125px;
+}
+
+.menu .group-5 {
+  position: absolute;
+  width: 57px;
+  height: 15px;
+  top: 699px;
+  left: 123px;
+}
+
+.menu .group-6 {
+  position: absolute;
+  width: 56px;
+  height: 15px;
+  top: 831px;
+  left: 123px;
+}
+
+.menu .group-7 {
+  position: absolute;
+  width: 54px;
+  height: 15px;
+  top: 963px;
+  left: 123px;
+}
+
+.menu .group-8 {
+  position: absolute;
+  width: 57px;
+  height: 15px;
+  top: 1095px;
+  left: 123px;
+}
+
+.menu .overlap-wrapper {
+  position: absolute;
+  width: 69px;
+  height: 15px;
+  top: 1227px;
+  left: 112px;
+}
+
+.menu .overlap {
+  position: relative;
+  width: 67px;
+  height: 15px;
+}
+
+.menu .overlap-group-wrapper {
+  position: absolute;
+  width: 84px;
+  height: 24px;
+  top: 64px;
+  left: 111px;
+}
+
+.menu .overlap-2 {
+  position: relative;
+  width: 82px;
+  height: 24px;
+  background-color: #0c5800;
+  border-radius: 30px;
+}
+
+.menu .text-wrapper-13 {
+  position: absolute;
+  top: 4px;
+  left: 13px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .group-9 {
+  position: absolute;
+  width: 84px;
+  height: 24px;
+  top: 196px;
+  left: 113px;
+}
+
+.menu .group-10 {
+  position: absolute;
+  width: 84px;
+  height: 24px;
+  top: 328px;
+  left: 115px;
+}
+
+.menu .group-11 {
+  position: absolute;
+  width: 84px;
+  height: 24px;
+  top: 458px;
+  left: 113px;
+}
+
+.menu .group-12 {
+  position: absolute;
+  width: 84px;
+  height: 24px;
+  top: 594px;
+  left: 112px;
+}
+
+.menu .group-13 {
+  position: absolute;
+  width: 84px;
+  height: 24px;
+  top: 723px;
+  left: 112px;
+}
+
+.menu .group-14 {
+  position: absolute;
+  width: 84px;
+  height: 24px;
+  top: 855px;
+  left: 112px;
+}
+
+.menu .group-15 {
+  position: absolute;
+  width: 84px;
+  height: 24px;
+  top: 987px;
+  left: 112px;
+}
+
+.menu .group-16 {
+  position: absolute;
+  width: 84px;
+  height: 24px;
+  top: 1119px;
+  left: 112px;
+}
+
+.menu .group-17 {
+  position: absolute;
+  width: 84px;
+  height: 24px;
+  top: 1251px;
+  left: 112px;
+}
+
+.menu .unsplash {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.menu .unsplash-qmppgldzk {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 132px;
+  left: 0;
+  object-fit: cover;
+}
+
+.menu .unsplash-gfbipmhre {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 264px;
+  left: 0;
+  object-fit: cover;
+}
+
+.menu .unsplash-tgegrhasxe {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 396px;
+  left: 0;
+  object-fit: cover;
+}
+
+.menu .unsplash-tavksyts {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 528px;
+  left: 0;
+  object-fit: cover;
+}
+
+.menu .img {
+  top: 1056px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 0;
+  object-fit: cover;
+}
+
+.menu .rectangle-2 {
+  top: 792px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 0;
+  object-fit: cover;
+}
+
+.menu .unsplash-jbisypom {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 660px;
+  left: 0;
+  object-fit: cover;
+}
+
+.menu .unsplash-qagdmftmie {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 924px;
+  left: 0;
+  object-fit: cover;
+}
+
+.menu .group-wrapper {
+  position: fixed;
+  width: 360px;
+  height: 137px;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+}
+
+.menu .group-18 {
+  position: relative;
+  width: 335px;
+  height: 102px;
+  top: 13px;
+  left: 9px;
+}
+
+.menu .mingcute-arrow-up {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  left: 0;
+}
+
+.menu .ic-twotone-apps {
+  top: 5px;
+  left: 275px;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+}
+
+.menu .iconoir-add-to-cart {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 5px;
+  left: 311px;
+}
+
+.menu .ion-filter-sharp {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 67px;
+  left: 309px;
+}
+
+.menu .group-19 {
+  position: absolute;
+  width: 297px;
+  height: 45px;
+  top: 57px;
+  left: 4px;
+}
+
+.menu .overlap-group-2 {
+  position: relative;
+  width: 295px;
+  height: 45px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.menu .text-wrapper-14 {
+  position: absolute;
+  top: 14px;
+  left: 12px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .ic-twotone-search {
+  top: 10px;
+  left: 255px;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+}

@@ -1,0 +1,83 @@
+/* screen - index */
+
+.index {
+  align-items: center;
+  background-color: #000610;
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  padding: 99px 0;
+  width: 360px;
+}
+
+.index .overlap-group {
+  align-items: flex-end;
+  background-color: var(--white);
+  display: flex;
+  min-width: 88px;
+  padding: 13px;
+}
+
+.index .circumbowl-noodles {
+  height: 61px;
+  width: 61px;
+}
+
+.index .title {
+  color: #0c5800;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 16px;
+  min-height: 36px;
+  min-width: 158px;
+  white-space: nowrap;
+}
+
+.index .special-delicious-food {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 1.0px;
+  margin-top: 6px;
+  min-height: 15px;
+  min-width: 135px;
+}
+
+.index .overlap-group1 {
+  margin-top: 227px;
+  position: relative;
+  width: 88px;
+}
+
+.index .ellipse-2 {
+  background-color: #0c5800;
+  border-radius: 44px;
+  height: 88px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 88px;
+}
+
+.index .text-1 {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 14px;
+}
+
+.index .overlap {
+  border-radius: 44px;
+  height: 88px;
+}

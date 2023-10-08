@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="globals.css" />
+  </head>
+  <body style="margin: 0; background: #000610">
+    <input type="hidden" id="anPageName" name="page" value="index" />
+    <div class="container-center-horizontal">
+      <div class="index screen">
+        <div class="overlap-group overlap">
+          <img
+            class="circumbowl-noodles"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+            anima-src="https://cdn.animaapp.com/projects/6509e8f5465e275981b5f912/releases/65231ab5a0f6f101d2b29315/img/circum-bowl-noodles.svg"
+            alt="circum:bowl-noodles"
+          />
+        </div>
+        <h1 class="title">FOOD HUB</h1>
+        <div class="special-delicious-food">Special &amp; Delicious food</div>
+        <div class="overlap-group1 overlap">
+          <div class="ellipse-2" onclick="" onmouseover=""></div>
+          <div class="text-1">&gt;</div>
+        </div>
+      </div>
+    </div>
+    <script>
+      isHidden = function (e) {
+        if (!(e instanceof HTMLElement)) return false;
+        if (getComputedStyle(e).display == "none") return true;
+        else if (e.parentNode && isHidden(e.parentNode)) return true;
+        return false;
+      };
+
+      loadAsyncSrcForTag = function (tag) {
+        var elements = document.getElementsByTagName(tag);
+        var toLoad = [];
+        for (var i = 0; i < elements.length; i++) {
+          var e = elements[i];
+          var src = e.getAttribute("src");
+          var loaded =
+            src != undefined &&
+            src.length > 0 &&
+            src != "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==";
+          if (loaded) continue;
+          var asyncSrc = e.getAttribute("anima-src");
+          if (asyncSrc == undefined || asyncSrc.length == 0) continue;
+          if (isHidden(e)) continue;
+          toLoad.push(e);
+        }
+        // Top first
+        toLoad.sort(function (a, b) {
+          return getTop(a) - getTop(b);
+        });
+        for (var i = 0; i < toLoad.length; i++) {
+          var e = toLoad[i];
+          var asyncSrc = e.getAttribute("anima-src");
+          e.setAttribute("src", asyncSrc);
+        }
+      };
+
+      pauseHiddenVideos = function (tag) {
+        var elements = document.getElementsByTagName("video");
+        for (var i = 0; i < elements.length; i++) {
+          var e = elements[i];
+          var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
+          var isHiddenStatus = isHidden(e);
+          if (!isPlaying && !isHiddenStatus && e.getAttribute("autoplay") == "autoplay") {
+            e.play();
+          } else if (isPlaying && isHiddenStatus) {
+            e.pause();
+          }
+        }
+      };
+
+      loadAsyncSrc = function (tag) {
+        loadAsyncSrcForTag("img");
+        loadAsyncSrcForTag("iframe");
+        loadAsyncSrcForTag("video");
+        pauseHiddenVideos();
+      };
+
+      var getTop = function (e) {
+        var top = 0;
+        do {
+          top += e.offsetTop || 0;
+          e = e.offsetParent;
+        } while (e);
+        return top;
+      };
+
+      // On load
+      loadAsyncSrc();
+
+      // On resize
+      old_onResize = window.onresize;
+      new_onResize = undefined;
+
+      updateOnResize = function () {
+        if (new_onResize == undefined || window.onresize != new_onResize) {
+          new_onResize = function (x) {
+            if (old_onResize != undefined) old_onResize(x);
+            loadAsyncSrc();
+          };
+          window.onresize = new_onResize;
+          // Make sure not overriden
+          setTimeout(function () {
+            updateOnResize();
+          }, 3000);
+        }
+      };
+      updateOnResize();
+
+      // IE
+      setTimeout(function () {
+        loadAsyncSrc();
+      }, 200);
+    </script>
+  </body>
+</html>
